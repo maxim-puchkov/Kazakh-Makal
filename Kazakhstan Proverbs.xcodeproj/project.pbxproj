@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DC706F1CE84A550056B8EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC706E1CE84A550056B8EC /* main.m */; };
+		84DC70721CE84A550056B8EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC70711CE84A550056B8EC /* AppDelegate.m */; };
+		84DC70751CE84A550056B8EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC70741CE84A550056B8EC /* ViewController.m */; };
+		84DC70781CE84A550056B8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC70761CE84A550056B8EC /* Main.storyboard */; };
+		84DC707A1CE84A550056B8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DC70791CE84A550056B8EC /* Assets.xcassets */; };
+		84DC707D1CE84A550056B8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC707B1CE84A550056B8EC /* LaunchScreen.storyboard */; };
+		84DC70881CE84A550056B8EC /* Kazakhstan_ProverbsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC70871CE84A550056B8EC /* Kazakhstan_ProverbsTests.m */; };
+		84DC70931CE84A550056B8EC /* Kazakhstan_ProverbsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC70921CE84A550056B8EC /* Kazakhstan_ProverbsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DC70841CE84A550056B8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DC70621CE84A550056B8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DC70691CE84A550056B8EC;
+			remoteInfo = "Kazakhstan Proverbs";
+		};
+		84DC708F1CE84A550056B8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DC70621CE84A550056B8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DC70691CE84A550056B8EC;
+			remoteInfo = "Kazakhstan Proverbs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DC706A1CE84A550056B8EC /* Kazakhstan Proverbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kazakhstan Proverbs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DC706E1CE84A550056B8EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DC70701CE84A550056B8EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84DC70711CE84A550056B8EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84DC70731CE84A550056B8EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84DC70741CE84A550056B8EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84DC70771CE84A550056B8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DC70791CE84A550056B8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DC707C1CE84A550056B8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DC707E1CE84A550056B8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DC70831CE84A550056B8EC /* Kazakhstan ProverbsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kazakhstan ProverbsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DC70871CE84A550056B8EC /* Kazakhstan_ProverbsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kazakhstan_ProverbsTests.m; sourceTree = "<group>"; };
+		84DC70891CE84A550056B8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DC708E1CE84A550056B8EC /* Kazakhstan ProverbsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kazakhstan ProverbsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DC70921CE84A550056B8EC /* Kazakhstan_ProverbsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kazakhstan_ProverbsUITests.m; sourceTree = "<group>"; };
+		84DC70941CE84A550056B8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DC70671CE84A550056B8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DC70801CE84A550056B8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DC708B1CE84A550056B8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DC70611CE84A550056B8EC = {
+			isa = PBXGroup;
+			children = (
+				84DC706C1CE84A550056B8EC /* Kazakhstan Proverbs */,
+				84DC70861CE84A550056B8EC /* Kazakhstan ProverbsTests */,
+				84DC70911CE84A550056B8EC /* Kazakhstan ProverbsUITests */,
+				84DC706B1CE84A550056B8EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DC706B1CE84A550056B8EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DC706A1CE84A550056B8EC /* Kazakhstan Proverbs.app */,
+				84DC70831CE84A550056B8EC /* Kazakhstan ProverbsTests.xctest */,
+				84DC708E1CE84A550056B8EC /* Kazakhstan ProverbsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DC706C1CE84A550056B8EC /* Kazakhstan Proverbs */ = {
+			isa = PBXGroup;
+			children = (
+				84DC70701CE84A550056B8EC /* AppDelegate.h */,
+				84DC70711CE84A550056B8EC /* AppDelegate.m */,
+				84DC70731CE84A550056B8EC /* ViewController.h */,
+				84DC70741CE84A550056B8EC /* ViewController.m */,
+				84DC70761CE84A550056B8EC /* Main.storyboard */,
+				84DC70791CE84A550056B8EC /* Assets.xcassets */,
+				84DC707B1CE84A550056B8EC /* LaunchScreen.storyboard */,
+				84DC707E1CE84A550056B8EC /* Info.plist */,
+				84DC706D1CE84A550056B8EC /* Supporting Files */,
+			);
+			path = "Kazakhstan Proverbs";
+			sourceTree = "<group>";
+		};
+		84DC706D1CE84A550056B8EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DC706E1CE84A550056B8EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DC70861CE84A550056B8EC /* Kazakhstan ProverbsTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DC70871CE84A550056B8EC /* Kazakhstan_ProverbsTests.m */,
+				84DC70891CE84A550056B8EC /* Info.plist */,
+			);
+			path = "Kazakhstan ProverbsTests";
+			sourceTree = "<group>";
+		};
+		84DC70911CE84A550056B8EC /* Kazakhstan ProverbsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DC70921CE84A550056B8EC /* Kazakhstan_ProverbsUITests.m */,
+				84DC70941CE84A550056B8EC /* Info.plist */,
+			);
+			path = "Kazakhstan ProverbsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DC70691CE84A550056B8EC /* Kazakhstan Proverbs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DC70971CE84A550056B8EC /* Build configuration list for PBXNativeTarget "Kazakhstan Proverbs" */;
+			buildPhases = (
+				84DC70661CE84A550056B8EC /* Sources */,
+				84DC70671CE84A550056B8EC /* Frameworks */,
+				84DC70681CE84A550056B8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kazakhstan Proverbs";
+			productName = "Kazakhstan Proverbs";
+			productReference = 84DC706A1CE84A550056B8EC /* Kazakhstan Proverbs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DC70821CE84A550056B8EC /* Kazakhstan ProverbsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DC709A1CE84A550056B8EC /* Build configuration list for PBXNativeTarget "Kazakhstan ProverbsTests" */;
+			buildPhases = (
+				84DC707F1CE84A550056B8EC /* Sources */,
+				84DC70801CE84A550056B8EC /* Frameworks */,
+				84DC70811CE84A550056B8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DC70851CE84A550056B8EC /* PBXTargetDependency */,
+			);
+			name = "Kazakhstan ProverbsTests";
+			productName = "Kazakhstan ProverbsTests";
+			productReference = 84DC70831CE84A550056B8EC /* Kazakhstan ProverbsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DC708D1CE84A550056B8EC /* Kazakhstan ProverbsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DC709D1CE84A550056B8EC /* Build configuration list for PBXNativeTarget "Kazakhstan ProverbsUITests" */;
+			buildPhases = (
+				84DC708A1CE84A550056B8EC /* Sources */,
+				84DC708B1CE84A550056B8EC /* Frameworks */,
+				84DC708C1CE84A550056B8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DC70901CE84A550056B8EC /* PBXTargetDependency */,
+			);
+			name = "Kazakhstan ProverbsUITests";
+			productName = "Kazakhstan ProverbsUITests";
+			productReference = 84DC708E1CE84A550056B8EC /* Kazakhstan ProverbsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DC70621CE84A550056B8EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Maxim Puchkov";
+				TargetAttributes = {
+					84DC70691CE84A550056B8EC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					84DC70821CE84A550056B8EC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84DC70691CE84A550056B8EC;
+					};
+					84DC708D1CE84A550056B8EC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84DC70691CE84A550056B8EC;
+					};
+				};
+			};
+			buildConfigurationList = 84DC70651CE84A550056B8EC /* Build configuration list for PBXProject "Kazakhstan Proverbs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DC70611CE84A550056B8EC;
+			productRefGroup = 84DC706B1CE84A550056B8EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DC70691CE84A550056B8EC /* Kazakhstan Proverbs */,
+				84DC70821CE84A550056B8EC /* Kazakhstan ProverbsTests */,
+				84DC708D1CE84A550056B8EC /* Kazakhstan ProverbsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DC70681CE84A550056B8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DC707D1CE84A550056B8EC /* LaunchScreen.storyboard in Resources */,
+				84DC707A1CE84A550056B8EC /* Assets.xcassets in Resources */,
+				84DC70781CE84A550056B8EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DC70811CE84A550056B8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DC708C1CE84A550056B8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DC70661CE84A550056B8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DC70751CE84A550056B8EC /* ViewController.m in Sources */,
+				84DC70721CE84A550056B8EC /* AppDelegate.m in Sources */,
+				84DC706F1CE84A550056B8EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DC707F1CE84A550056B8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DC70881CE84A550056B8EC /* Kazakhstan_ProverbsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DC708A1CE84A550056B8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DC70931CE84A550056B8EC /* Kazakhstan_ProverbsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DC70851CE84A550056B8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DC70691CE84A550056B8EC /* Kazakhstan Proverbs */;
+			targetProxy = 84DC70841CE84A550056B8EC /* PBXContainerItemProxy */;
+		};
+		84DC70901CE84A550056B8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DC70691CE84A550056B8EC /* Kazakhstan Proverbs */;
+			targetProxy = 84DC708F1CE84A550056B8EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DC70761CE84A550056B8EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DC70771CE84A550056B8EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DC707B1CE84A550056B8EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DC707C1CE84A550056B8EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DC70951CE84A550056B8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DC70961CE84A550056B8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DC70981CE84A550056B8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kazakhstan Proverbs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Kazakhstan-Proverbs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84DC70991CE84A550056B8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kazakhstan Proverbs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Kazakhstan-Proverbs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84DC709B1CE84A550056B8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kazakhstan ProverbsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Kazakhstan-ProverbsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazakhstan Proverbs.app/Kazakhstan Proverbs";
+			};
+			name = Debug;
+		};
+		84DC709C1CE84A550056B8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kazakhstan ProverbsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Kazakhstan-ProverbsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kazakhstan Proverbs.app/Kazakhstan Proverbs";
+			};
+			name = Release;
+		};
+		84DC709E1CE84A550056B8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kazakhstan ProverbsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Kazakhstan-ProverbsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kazakhstan Proverbs";
+			};
+			name = Debug;
+		};
+		84DC709F1CE84A550056B8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kazakhstan ProverbsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Kazakhstan-ProverbsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kazakhstan Proverbs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DC70651CE84A550056B8EC /* Build configuration list for PBXProject "Kazakhstan Proverbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DC70951CE84A550056B8EC /* Debug */,
+				84DC70961CE84A550056B8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DC70971CE84A550056B8EC /* Build configuration list for PBXNativeTarget "Kazakhstan Proverbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DC70981CE84A550056B8EC /* Debug */,
+				84DC70991CE84A550056B8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84DC709A1CE84A550056B8EC /* Build configuration list for PBXNativeTarget "Kazakhstan ProverbsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DC709B1CE84A550056B8EC /* Debug */,
+				84DC709C1CE84A550056B8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84DC709D1CE84A550056B8EC /* Build configuration list for PBXNativeTarget "Kazakhstan ProverbsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DC709E1CE84A550056B8EC /* Debug */,
+				84DC709F1CE84A550056B8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DC70621CE84A550056B8EC /* Project object */;
+}
