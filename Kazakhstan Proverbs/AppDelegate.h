@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  Kazakhstan Proverbs
+//  SlideMenu
 //
-//  Created by admin on 2016-05-14.
-//  Copyright © 2016 Maxim Puchkov. All rights reserved.
+//  Created by Aryan Gh on 4/24/13.
+//  Copyright (c) 2013 Aryan Ghassemi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,6 +12,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-

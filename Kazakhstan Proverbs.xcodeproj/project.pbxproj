@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843FF7F51CF1438300D9FF45 /* kazakh_alphabet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 843FF7F41CF1438300D9FF45 /* kazakh_alphabet.txt */; };
+		84450CA81D047E6200622549 /* leftMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 84450CA71D047E6200622549 /* leftMenu.png */; };
+		84450CAB1D047F9D00622549 /* STKColorAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450CAA1D047F9D00622549 /* STKColorAccessoryView.m */; };
+		8447814F1D050ED700011BFE /* Star-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8447814E1D050ED700011BFE /* Star-50@2x.png */; };
+		844781551D050F8500011BFE /* List-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844781541D050F8500011BFE /* List-50@2x.png */; };
+		844781591D050FEC00011BFE /* More-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844781581D050FEC00011BFE /* More-50@2x.png */; };
+		8447815F1D05110F00011BFE /* More-50-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8447815E1D05110F00011BFE /* More-50-pressed@2x.png */; };
+		844781621D0511A400011BFE /* Star-50-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844781601D0511A400011BFE /* Star-50-pressed@2x.png */; };
+		844781631D0511A400011BFE /* List-50-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844781611D0511A400011BFE /* List-50-pressed@2x.png */; };
+		84495F021CFFC49F0035927F /* FavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84495F011CFFC49F0035927F /* FavoritesTableViewController.m */; };
+		844C24291D014BAA00F048ED /* MoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C24281D014BAA00F048ED /* MoreTableViewController.m */; };
+		844E52D81D03668200903AA0 /* icon_kz120.png in Resources */ = {isa = PBXBuildFile; fileRef = 844E52D71D03668200903AA0 /* icon_kz120.png */; };
+		844E52DA1D0368AD00903AA0 /* icon_kk120.png in Resources */ = {isa = PBXBuildFile; fileRef = 844E52D91D0368AD00903AA0 /* icon_kk120.png */; };
+		844E52DE1D036D4C00903AA0 /* icon_gp120.png in Resources */ = {isa = PBXBuildFile; fileRef = 844E52DB1D036D4C00903AA0 /* icon_gp120.png */; };
+		844E52DF1D036D4C00903AA0 /* icon_jp120.png in Resources */ = {isa = PBXBuildFile; fileRef = 844E52DC1D036D4C00903AA0 /* icon_jp120.png */; };
+		844E52E01D036D4C00903AA0 /* icon_wi120.png in Resources */ = {isa = PBXBuildFile; fileRef = 844E52DD1D036D4C00903AA0 /* icon_wi120.png */; };
+		844E52E21D036DD400903AA0 /* icon_vrn120.png in Resources */ = {isa = PBXBuildFile; fileRef = 844E52E11D036DD400903AA0 /* icon_vrn120.png */; };
+		844E85381D02C6B1001207CE /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 844E85371D02C6B1001207CE /* favorite.png */; };
+		84520AC91CFE81680083196D /* SelectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84520AC81CFE81680083196D /* SelectedViewController.m */; };
+		846AEA871CF01AE40028C7E1 /* ProverbsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846AEA861CF01AE40028C7E1 /* ProverbsTableViewController.m */; };
 		84DC706F1CE84A550056B8EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC706E1CE84A550056B8EC /* main.m */; };
 		84DC70721CE84A550056B8EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC70711CE84A550056B8EC /* AppDelegate.m */; };
 		84DC70751CE84A550056B8EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC70741CE84A550056B8EC /* ViewController.m */; };
-		84DC70781CE84A550056B8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC70761CE84A550056B8EC /* Main.storyboard */; };
 		84DC707A1CE84A550056B8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DC70791CE84A550056B8EC /* Assets.xcassets */; };
 		84DC707D1CE84A550056B8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC707B1CE84A550056B8EC /* LaunchScreen.storyboard */; };
 		84DC70881CE84A550056B8EC /* Kazakhstan_ProverbsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC70871CE84A550056B8EC /* Kazakhstan_ProverbsTests.m */; };
 		84DC70931CE84A550056B8EC /* Kazakhstan_ProverbsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC70921CE84A550056B8EC /* Kazakhstan_ProverbsUITests.m */; };
+		84DC70D31CE84AC00056B8EC /* content.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84DC70A51CE84AC00056B8EC /* content.txt */; };
+		84DC70EC1CE84AD10056B8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC70EB1CE84AD10056B8EC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +56,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843FF7F41CF1438300D9FF45 /* kazakh_alphabet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = kazakh_alphabet.txt; path = "Helper Classes/kazakh_alphabet.txt"; sourceTree = "<group>"; };
+		84450CA71D047E6200622549 /* leftMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftMenu.png; sourceTree = "<group>"; };
+		84450CA91D047F9D00622549 /* STKColorAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKColorAccessoryView.h; sourceTree = "<group>"; };
+		84450CAA1D047F9D00622549 /* STKColorAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKColorAccessoryView.m; sourceTree = "<group>"; };
+		8447814E1D050ED700011BFE /* Star-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-50@2x.png"; sourceTree = "<group>"; };
+		844781541D050F8500011BFE /* List-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "List-50@2x.png"; sourceTree = "<group>"; };
+		844781581D050FEC00011BFE /* More-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "More-50@2x.png"; sourceTree = "<group>"; };
+		8447815E1D05110F00011BFE /* More-50-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "More-50-pressed@2x.png"; sourceTree = "<group>"; };
+		844781601D0511A400011BFE /* Star-50-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-50-pressed@2x.png"; sourceTree = "<group>"; };
+		844781611D0511A400011BFE /* List-50-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "List-50-pressed@2x.png"; sourceTree = "<group>"; };
+		84495F001CFFC49F0035927F /* FavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTableViewController.h; sourceTree = "<group>"; };
+		84495F011CFFC49F0035927F /* FavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTableViewController.m; sourceTree = "<group>"; };
+		844C24271D014BAA00F048ED /* MoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewController.h; sourceTree = "<group>"; };
+		844C24281D014BAA00F048ED /* MoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewController.m; sourceTree = "<group>"; };
+		844E52D71D03668200903AA0 /* icon_kz120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_kz120.png; sourceTree = "<group>"; };
+		844E52D91D0368AD00903AA0 /* icon_kk120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_kk120.png; sourceTree = "<group>"; };
+		844E52DB1D036D4C00903AA0 /* icon_gp120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_gp120.png; sourceTree = "<group>"; };
+		844E52DC1D036D4C00903AA0 /* icon_jp120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_jp120.png; sourceTree = "<group>"; };
+		844E52DD1D036D4C00903AA0 /* icon_wi120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_wi120.png; sourceTree = "<group>"; };
+		844E52E11D036DD400903AA0 /* icon_vrn120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_vrn120.png; sourceTree = "<group>"; };
+		844E85371D02C6B1001207CE /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		84520AC71CFE81680083196D /* SelectedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedViewController.h; sourceTree = "<group>"; };
+		84520AC81CFE81680083196D /* SelectedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedViewController.m; sourceTree = "<group>"; };
+		846AEA851CF01AE40028C7E1 /* ProverbsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProverbsTableViewController.h; sourceTree = "<group>"; };
+		846AEA861CF01AE40028C7E1 /* ProverbsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProverbsTableViewController.m; sourceTree = "<group>"; };
 		84DC706A1CE84A550056B8EC /* Kazakhstan Proverbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kazakhstan Proverbs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DC706E1CE84A550056B8EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84DC70701CE84A550056B8EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84DC70711CE84A550056B8EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84DC70731CE84A550056B8EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84DC70741CE84A550056B8EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84DC70771CE84A550056B8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DC70791CE84A550056B8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DC707C1CE84A550056B8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DC707E1CE84A550056B8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +96,8 @@
 		84DC708E1CE84A550056B8EC /* Kazakhstan ProverbsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kazakhstan ProverbsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DC70921CE84A550056B8EC /* Kazakhstan_ProverbsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kazakhstan_ProverbsUITests.m; sourceTree = "<group>"; };
 		84DC70941CE84A550056B8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DC70A51CE84AC00056B8EC /* content.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = content.txt; path = "Helper Classes/content.txt"; sourceTree = "<group>"; };
+		84DC70EB1CE84AD10056B8EC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +125,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844781641D05120A00011BFE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				844E85371D02C6B1001207CE /* favorite.png */,
+				844E52D91D0368AD00903AA0 /* icon_kk120.png */,
+				844E52D71D03668200903AA0 /* icon_kz120.png */,
+				844E52DB1D036D4C00903AA0 /* icon_gp120.png */,
+				844E52DC1D036D4C00903AA0 /* icon_jp120.png */,
+				844E52DD1D036D4C00903AA0 /* icon_wi120.png */,
+				844E52E11D036DD400903AA0 /* icon_vrn120.png */,
+				84450CA71D047E6200622549 /* leftMenu.png */,
+				8447814E1D050ED700011BFE /* Star-50@2x.png */,
+				844781541D050F8500011BFE /* List-50@2x.png */,
+				844781581D050FEC00011BFE /* More-50@2x.png */,
+				8447815E1D05110F00011BFE /* More-50-pressed@2x.png */,
+				844781601D0511A400011BFE /* Star-50-pressed@2x.png */,
+				844781611D0511A400011BFE /* List-50-pressed@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		84DC70611CE84A550056B8EC = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +173,20 @@
 				84DC70711CE84A550056B8EC /* AppDelegate.m */,
 				84DC70731CE84A550056B8EC /* ViewController.h */,
 				84DC70741CE84A550056B8EC /* ViewController.m */,
-				84DC70761CE84A550056B8EC /* Main.storyboard */,
+				84DC70EB1CE84AD10056B8EC /* Main.storyboard */,
+				846AEA851CF01AE40028C7E1 /* ProverbsTableViewController.h */,
+				846AEA861CF01AE40028C7E1 /* ProverbsTableViewController.m */,
+				84520AC71CFE81680083196D /* SelectedViewController.h */,
+				84520AC81CFE81680083196D /* SelectedViewController.m */,
+				84495F001CFFC49F0035927F /* FavoritesTableViewController.h */,
+				84495F011CFFC49F0035927F /* FavoritesTableViewController.m */,
+				844C24271D014BAA00F048ED /* MoreTableViewController.h */,
+				844C24281D014BAA00F048ED /* MoreTableViewController.m */,
+				84450CA91D047F9D00622549 /* STKColorAccessoryView.h */,
+				84450CAA1D047F9D00622549 /* STKColorAccessoryView.m */,
+				84DC70A51CE84AC00056B8EC /* content.txt */,
+				843FF7F41CF1438300D9FF45 /* kazakh_alphabet.txt */,
+				844781641D05120A00011BFE /* Images */,
 				84DC70791CE84A550056B8EC /* Assets.xcassets */,
 				84DC707B1CE84A550056B8EC /* LaunchScreen.storyboard */,
 				84DC707E1CE84A550056B8EC /* Info.plist */,
@@ -150,6 +231,7 @@
 				84DC70661CE84A550056B8EC /* Sources */,
 				84DC70671CE84A550056B8EC /* Frameworks */,
 				84DC70681CE84A550056B8EC /* Resources */,
+				84DC70ED1CE84B8C0056B8EC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -243,9 +325,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844E52E01D036D4C00903AA0 /* icon_wi120.png in Resources */,
+				84DC70D31CE84AC00056B8EC /* content.txt in Resources */,
+				844E52D81D03668200903AA0 /* icon_kz120.png in Resources */,
+				844781591D050FEC00011BFE /* More-50@2x.png in Resources */,
+				84DC70EC1CE84AD10056B8EC /* Main.storyboard in Resources */,
+				844E52DE1D036D4C00903AA0 /* icon_gp120.png in Resources */,
+				844781621D0511A400011BFE /* Star-50-pressed@2x.png in Resources */,
 				84DC707D1CE84A550056B8EC /* LaunchScreen.storyboard in Resources */,
 				84DC707A1CE84A550056B8EC /* Assets.xcassets in Resources */,
-				84DC70781CE84A550056B8EC /* Main.storyboard in Resources */,
+				843FF7F51CF1438300D9FF45 /* kazakh_alphabet.txt in Resources */,
+				84450CA81D047E6200622549 /* leftMenu.png in Resources */,
+				8447814F1D050ED700011BFE /* Star-50@2x.png in Resources */,
+				8447815F1D05110F00011BFE /* More-50-pressed@2x.png in Resources */,
+				844E52E21D036DD400903AA0 /* icon_vrn120.png in Resources */,
+				844E85381D02C6B1001207CE /* favorite.png in Resources */,
+				844781551D050F8500011BFE /* List-50@2x.png in Resources */,
+				844781631D0511A400011BFE /* List-50-pressed@2x.png in Resources */,
+				844E52DF1D036D4C00903AA0 /* icon_jp120.png in Resources */,
+				844E52DA1D0368AD00903AA0 /* icon_kk120.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +363,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84DC70ED1CE84B8C0056B8EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84DC70661CE84A550056B8EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,7 +386,12 @@
 			files = (
 				84DC70751CE84A550056B8EC /* ViewController.m in Sources */,
 				84DC70721CE84A550056B8EC /* AppDelegate.m in Sources */,
+				84450CAB1D047F9D00622549 /* STKColorAccessoryView.m in Sources */,
+				846AEA871CF01AE40028C7E1 /* ProverbsTableViewController.m in Sources */,
+				84495F021CFFC49F0035927F /* FavoritesTableViewController.m in Sources */,
 				84DC706F1CE84A550056B8EC /* main.m in Sources */,
+				844C24291D014BAA00F048ED /* MoreTableViewController.m in Sources */,
+				84520AC91CFE81680083196D /* SelectedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +427,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84DC70761CE84A550056B8EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84DC70771CE84A550056B8EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84DC707B1CE84A550056B8EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,9 +527,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Kazakhstan Proverbs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Kazakhstan-Proverbs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -427,9 +540,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Kazakhstan Proverbs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Kazakhstan-Proverbs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -498,6 +613,7 @@
 				84DC70991CE84A550056B8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DC709A1CE84A550056B8EC /* Build configuration list for PBXNativeTarget "Kazakhstan ProverbsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +622,7 @@
 				84DC709C1CE84A550056B8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DC709D1CE84A550056B8EC /* Build configuration list for PBXNativeTarget "Kazakhstan ProverbsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +631,7 @@
 				84DC709F1CE84A550056B8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
